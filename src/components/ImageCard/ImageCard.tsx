@@ -1,7 +1,9 @@
+// import React from 'react'; //
+
 import { Images } from "../../types";
 import css from "./ImageCard.module.css";
 
-import React, { FC } from "react";
+import { FC } from "react";
 
 type ImageCardProps = {
   img: Images;
@@ -19,7 +21,7 @@ export const ImageCard: FC<ImageCardProps> = ({
     <div>
       <img
         onClick={() => onClick(regular)}
-        className={css.galleriImg}
+        className={css.galleryImg}
         src={small}
         alt={alt_description}
       />
