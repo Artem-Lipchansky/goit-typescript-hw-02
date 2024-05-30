@@ -1,0 +1,41 @@
+.headerContainer {
+    background-color: #2200ff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .headerInput {
+    padding: 10px 50px;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+  }
+  
+  .headerInput:focus {
+    outline: none;
+  }
+  
+  .headerBtn {
+    position: absolute;
+    border-radius: 3px;
+    border: none;
+    background-color: inherit;
+    color: #2200ff;
+    left: 15px;
+    bottom: 6px;
+    cursor: pointer;
+  }
+  
+  .headerBtn:hover {
+    color: #f6ff00;
+  }
+  
+  .formContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
